@@ -9,17 +9,17 @@ export default function App() {
   const profiles = useMemo(
     () => [
       {
-        name: "Person1",
+        name: "Sai",
         designation: "Software Developer",
         status: "inactive",
       },
       {
-        name: "Person2",
+        name: "Manikanta",
         designation: "Python Developer",
         status: allInactive ? "inactive" : "active",
       },
       {
-        name: "Person3",
+        name: "Ram",
         designation: "Web Developer",
         status: "inactive",
        
